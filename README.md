@@ -1,4 +1,4 @@
-🕹️ `Lightweight steam A2 interface implementation`
+🕹️ `Lightweight steam A2S interface implementation`
 
 ## 📝 Specification
 
