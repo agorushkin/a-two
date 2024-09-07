@@ -1,4 +1,4 @@
-export interface InfoResponse {
+export type InfoResponse = {
   protocol: number;
   name: string;
   map: string;
@@ -19,26 +19,26 @@ export interface InfoResponse {
   spectator_name?: string;
   keywords?: string;
   game_id?: bigint;
-}
+};
 
-export interface PlayerResponse {
+export type PlayerResponse = {
   player_count: number;
   players: Player[];
-}
+};
 
-export interface Player {
+export type Player = {
   index: number;
   name: string;
   score: number;
   duration: number;
-}
+};
 
-export interface RulesResponse {
+export type RulesResponse = {
   rule_count: number;
   rules: Rule[];
-}
+};
 
-export interface Rule {
+export type Rule = {
   name: string;
   value: string;
-}
+};
